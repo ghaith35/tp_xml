@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recherche>
+  <continents>
+    <continent no="C1" nom="Afrique"/>
+    <continent no="C2" nom="Europe"/>
+    <continent no="C3" nom="ASIA"/>
+  </continents>
+  <pays no="C1" nom="Algérie">
+    <villes>
+      <ville nom="zemouri">
+        <sites>
+          <site nom="plage" photo="images/zemmouri.png"/>
+        </sites>
+      </ville>
+      <ville nom="Boumerdès">
+        <sites>
+          <site nom="M'hamed Bougara" photo="images/umbb.jpg"/>
+          <site nom="Faculty of Technology (INGM)" photo="images/ingm.jpg"/>
+        </sites>
+      </ville>
+    </villes>
+  </pays>
+
+
+  <pays no="C3" nom="Syrie">
+    <villes>
+      <ville nom="Hama">
+        <sites>
+          <site nom="nawair" photo="images/hama.png"/>
+        </sites>
+      </ville>
+    </villes>
+  </pays>
+  <pays no="C2" nom="Londres">
+    <villes>
+      <ville nom="Grande Bretagne">
+        <sites>
+          <site nom="Big Ben" photo="images/big-ben.jpg"/>
+          <site nom="Tower Bridge" photo="images/Tower Bridge.webp"/>
+        </sites>
+      </ville>
+    </villes>
+  </pays>
+</recherche>

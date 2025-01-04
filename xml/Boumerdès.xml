@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ville nom="Boumerdès">
+  <descriptif>La wilaya de Boumerdès (en berbère : Tanebḍit n Bumerdas, transcrit en Tifinagh: ⵜⴰⵏⴱⴹⵉⵜ ⵏ ⴱⵓⵎⵔⴷⴰⵙ; en arabe: ولاية بومرداس) est une wilaya algérienne située dans le nord du pays, à l'est d'Alger</descriptif>
+  <sites>
+    <site nom="M'hamed Bougara">
+      <photo>umbb.jpg</photo>
+    </site>
+    <site nom="Faculty of Technology (INGM)">
+      <photo>ingm.jpg</photo>
+    </site>
+  </sites>
+  <hotels>
+    <hotel>PLAZA Hôtel</hotel>
+    <hotel>Le Rocher</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>Woodpecker</restaurant>
+    <restaurant>La Rambla Restaurant</restaurant>
+  </restaurants>
+  <gares>
+    <gare>Bordj Menaïel</gare>
+    <gare>Corso</gare>
+  </gares>
+  <aeroports>
+    <aeroport/>
+  </aeroports>
+</ville>

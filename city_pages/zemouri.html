@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zemouri</title>
+    <link rel="stylesheet" href="../css/city_css.css">
+</head>
+<body>
+    <header>
+        <h1>zemouri</h1>
+        <p>Zemmouri (en kabyle: Zemmuri, زموري en arabe ; Courbet3 pendant la colonisation française) est une ville côtière chef-lieu de commune de même nom dans la wilaya de Boumerdès en Algérie, dans la daïra de Bordj Ménaïel.</p>
+    </header>
+    <section>
+        <h2>Sites</h2>
+        <ul><li><strong>plage</strong>: <img src='../images/zemmouri.png' alt='plage'></li>        </ul>
+    </section>
+    <section>
+        <h2>Hotels</h2>
+        <ul><li>coast hotel</li>        </ul>
+    </section>
+    <section>
+        <h2>Restaurants</h2>
+        <ul><li>Restaurant Courbet Marine</li>        </ul>
+    </section>
+    <section>
+        <h2>Transport</h2>
+        <h3>Gares</h3>
+        <ul><li></li>        </ul>
+        <h3>Aéroports</h3>
+        <ul><li></li>        </ul>
+    </section>
+    <!-- Button to Generate PDF -->
+    <button id="generate-pdf-btn">Generate PDF</button>
+
+    <script>
+        document.getElementById('generate-pdf-btn').addEventListener('click', function() {
+            const cityFile = "zemouri.xml"; // Get the city filename
+            window.location.href = '/tp_amir/generate_pdf.php?file=' + cityFile;
+        });
+    </script>
+
+</body>
+</html>

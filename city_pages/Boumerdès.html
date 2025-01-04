@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boumerdès</title>
+    <link rel="stylesheet" href="../css/city_css.css">
+</head>
+<body>
+    <header>
+        <h1>Boumerdès</h1>
+        <p>La wilaya de Boumerdès (en berbère : Tanebḍit n Bumerdas, transcrit en Tifinagh: ⵜⴰⵏⴱⴹⵉⵜ ⵏ ⴱⵓⵎⵔⴷⴰⵙ; en arabe: ولاية بومرداس) est une wilaya algérienne située dans le nord du pays, à l'est d'Alger</p>
+    </header>
+    <section>
+        <h2>Sites</h2>
+        <ul><li><strong>M'hamed Bougara</strong>: <img src='../images/umbb.jpg' alt='M'hamed Bougara'></li><li><strong>Faculty of Technology (INGM)</strong>: <img src='../images/ingm.jpg' alt='Faculty of Technology (INGM)'></li>        </ul>
+    </section>
+    <section>
+        <h2>Hotels</h2>
+        <ul><li>PLAZA Hôtel</li><li>Le Rocher</li>        </ul>
+    </section>
+    <section>
+        <h2>Restaurants</h2>
+        <ul><li>Woodpecker</li><li>La Rambla Restaurant</li>        </ul>
+    </section>
+    <section>
+        <h2>Transport</h2>
+        <h3>Gares</h3>
+        <ul><li>Bordj Menaïel</li><li>Corso</li>        </ul>
+        <h3>Aéroports</h3>
+        <ul><li></li>        </ul>
+    </section>
+    <!-- Button to Generate PDF -->
+    <button id="generate-pdf-btn">Generate PDF</button>
+
+    <script>
+        document.getElementById('generate-pdf-btn').addEventListener('click', function() {
+            const cityFile = "boumerdès.xml"; // Get the city filename
+            window.location.href = '/tp_amir/generate_pdf.php?file=' + cityFile;
+        });
+    </script>
+
+</body>
+</html>

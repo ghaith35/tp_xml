@@ -1,0 +1,14 @@
+<!ELEMENT config (header, nav)>
+<!ELEMENT header (img, h1)>
+<!ELEMENT img EMPTY>
+<!ATTLIST img src CDATA #REQUIRED>
+<!ATTLIST img alt CDATA #IMPLIED>
+<!ELEMENT h1 (#PCDATA)>
+<!ELEMENT nav (student+)>
+<!ELEMENT student (nom, prenom, specialite, section, groupe, email)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT specialite (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

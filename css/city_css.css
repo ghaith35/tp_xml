@@ -1,0 +1,178 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Page Layout */
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 72%; /* Reduced width */
+  margin: 0 auto; /* Centered header */
+  border-radius: 10px; /* Added rounded corners */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Section Container */
+section {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li img {
+  width: 550px; /* Increased width for larger images */
+  height: 280px; /* Increased height to match the new width */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly rounded corners */
+  margin-right: 20px; /* Spacing between the image and text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a polished look */
+}
+
+
+li .info {
+  flex: 1; /* Allow text content to use available space */
+}
+
+/* Centered Button */
+.centered-button {
+  text-align: center; /* Center align button */
+  margin: 20px auto; /* Add spacing */
+}
+
+button {
+  background-color: #0077c0; /* Button color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: block; /* Ensures it's treated as a block element */
+  margin: 20px auto; /* Centers the button horizontally */
+  text-align: center; /* Centers text inside the button */
+}
+
+button:hover {
+  background-color: #005c99; /* Darker blue on hover */
+}
+
+
+/* Sidebar */
+.sidebar {
+  background-color: #e6e6e6;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.sidebar p {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Layout Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 0 10px;
+  max-width: 1200px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  li img {
+      margin: 0 auto 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section {
+      padding: 15px;
+  }
+
+  li {
+      padding: 10px;
+  }
+
+  header h1 {
+      font-size: 2rem;
+  }
+}

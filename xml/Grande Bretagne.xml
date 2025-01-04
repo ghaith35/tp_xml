@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ville nom="Grande Bretagne">
+  <descriptif>La Grande-Bretagne (en anglais : Great Britain ou plus rarement Britain, en gallois : Prydain Fawr, en scots : Great Breetain, en cornique : Breten Veur, en gaélique écossais : Breatainn Mhòr, en breton : Breizh-Veur) est une île au large du littoral nord-ouest de l'Europe continentale. Elle représente la majorité du territoire du Royaume-Uni. En son acception politique, ce toponyme désigne l'Angleterre, le pays de Galles et l'Écosse ainsi que la plupart des territoires insulaires contigus à l'exclusion de l'Île de Man et des Îles Anglo-Normandes.</descriptif>
+  <sites>
+    <site nom="Big Ben">
+      <photo>big-ben.jpg</photo>
+    </site>
+    <site nom="Tower Bridge">
+      <photo>Tower Bridge.webp</photo>
+    </site>
+  </sites>
+  <hotels>
+    <hotel>Tower Bridge</hotel>
+    <hotel>The Social Athens Hotel</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>Saracen's Head</restaurant>
+  </restaurants>
+  <gares>
+    <gare>Waterloo</gare>
+    <gare>Victoria</gare>
+  </gares>
+  <aeroports>
+    <aeroport>London Heathrow Airport</aeroport>
+    <aeroport>London Gatwick Airport</aeroport>
+  </aeroports>
+</ville>

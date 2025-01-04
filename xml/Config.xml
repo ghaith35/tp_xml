@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE config SYSTEM "Config.dtd">
+
+<config>
+    <header>
+        <img src="images/banner.jeg" alt="Travel Site Banner"/>
+        <h1>Growth Agence</h1>
+    </header>
+    <nav>
+        <student>
+            <nom>Tayem</nom>
+            <prenom>Mohammad Ghaith</prenom>
+            <specialite>TI</specialite>
+            <section>1</section>
+            <groupe>2</groupe>
+            <email>gayethtayem@gmail.com</email>
+        </student>
+        <student>
+            <nom>Hamoul</nom>
+            <prenom>Hicham</prenom>
+            <specialite>TI</specialite>
+            <section>1</section>
+            <groupe>2</groupe>
+            <email>hamoulhicham20@gmail.com</email>
+        </student>
+    </nav>
+</config>

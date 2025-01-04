@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ville nom="hama">
+  <descriptif>hama descriptive</descriptif>
+  <sites>
+    <site nom="nawair">
+      <photo>hama.png</photo>
+    </site>
+  </sites>
+  <hotels>
+    <hotel/>
+  </hotels>
+  <restaurants>
+    <restaurant>hama resturant </restaurant>
+  </restaurants>
+  <gares>
+    <gare>hama gare</gare>
+  </gares>
+  <aeroports>
+    <aeroport>hama areport</aeroport>
+  </aeroports>
+</ville>

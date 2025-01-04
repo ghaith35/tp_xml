@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="recherche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="continents">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="continent" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="no" type="xs:string" use="required"/>
+                  <xs:attribute name="nom" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pays" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="villes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ville" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="sites">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="site" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:attribute name="nom" type="xs:string" use="required"/>
+                                    <xs:attribute name="photo" type="xs:string" use="optional"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nom" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="no" type="xs:string" use="required"/>
+            <xs:attribute name="nom" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

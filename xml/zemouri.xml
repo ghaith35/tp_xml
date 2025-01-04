@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ville nom="zemouri">
+  <descriptif>Zemmouri (en kabyle: Zemmuri, زموري en arabe ; Courbet3 pendant la colonisation française) est une ville côtière chef-lieu de commune de même nom dans la wilaya de Boumerdès en Algérie, dans la daïra de Bordj Ménaïel.</descriptif>
+  <sites>
+    <site nom="plage">
+      <photo>zemmouri.png</photo>
+    </site>
+  </sites>
+  <hotels>
+    <hotel>coast hotel</hotel>
+  </hotels>
+  <restaurants>
+    <restaurant>Restaurant Courbet Marine</restaurant>
+  </restaurants>
+  <gares>
+    <gare/>
+  </gares>
+  <aeroports>
+    <aeroport/>
+  </aeroports>
+</ville>
